@@ -2,7 +2,7 @@
  This offsets a mouse event x,y by the canvas position
 */
 function offset({target, x, y}){
-    bound = target.getBoundingClientRect();
+    const bound = target.getBoundingClientRect();
     return {
         x: x - bound.left,
         y: y - bound.top
