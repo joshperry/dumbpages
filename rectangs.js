@@ -9,7 +9,7 @@ function offset({target, x, y}){
     }
 }
 
-function gravitator(canvas) {
+function rectangulator(canvas) {
     let dragging = false
     let start = {x: 0, y: 0}
     function click(event) {
